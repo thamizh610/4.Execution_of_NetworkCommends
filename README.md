@@ -101,14 +101,18 @@ while True:
 
 # Output
 
-Client
+Tranceroute command
 
-![image](https://github.com/user-attachments/assets/1efb88a6-8ef7-4648-a316-b5453d5dfe0e)
+```
+from scapy.all import* 
+target = ["www.google.com"] 
+result, unans = traceroute(target,maxttl=32) 
+print(result,unans)
+```
 
-Server
+# Output
 
-![image](https://github.com/user-attachments/assets/4f52171f-15c1-401c-9aad-8ca4f5658474)
-
+![image](https://github.com/user-attachments/assets/b504e554-42bc-400c-b8d4-22ba41d5ed5b)
 
 ## Result
 Thus Execution of Network commands Performed 
