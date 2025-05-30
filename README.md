@@ -99,8 +99,6 @@ while True:
     print(s.recv(1024).decode())
 ```
 
-# Output
-
 Tranceroute command
 
 ```
@@ -111,8 +109,10 @@ print(result,unans)
 ```
 
 # Output
+![image](https://github.com/user-attachments/assets/cd91d861-cc8f-4061-afb5-86280a316bbb)
 
-![image](https://github.com/user-attachments/assets/b504e554-42bc-400c-b8d4-22ba41d5ed5b)
+
+![image](https://github.com/user-attachments/assets/ec8f9d30-f11d-445d-9270-a6910ac1921e)
 
 ## Result
 Thus Execution of Network commands Performed 
