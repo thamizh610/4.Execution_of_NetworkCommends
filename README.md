@@ -26,47 +26,6 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 
-## Output
-
-NETSTAT
-
-![image](https://github.com/user-attachments/assets/90a767a3-8587-4864-9959-a42f63f8c13c)
-
-IPCONFIG
-
-![image](https://github.com/user-attachments/assets/e9a41425-9e57-48dd-8245-950521aaf423)
-
-PING
-
-![image](https://github.com/user-attachments/assets/f8b8f4b1-c9ad-4817-8929-1428fbc08d10)
-
-TRACERT
-
-![image](https://github.com/user-attachments/assets/c7da7592-4482-4baa-9232-67f800a82332)
-
-NSLOOKUP
-
-![image](https://github.com/user-attachments/assets/7cfbc284-915a-4a60-bb56-df575b95fc1a)
-
-GETMAC
-
-![378099051-476c1334-6f03-4255-a726-201b431d06fc](https://github.com/user-attachments/assets/c4fc71f2-747b-423f-a8ad-67ad91ef8d95)
-
-HOSTMAME
-
-![378099139-7b52b169-cbe8-4b05-8acb-274f2c1566b5](https://github.com/user-attachments/assets/fb500420-273e-4cc7-8420-e147b4575c9a)
-
-NBTSTAT
-
-![378099417-98cd8d15-23a4-42da-93a1-4cb0c3714028](https://github.com/user-attachments/assets/6a4ca773-35f4-4c9b-8585-cf8bc5fd53ae)
-
-ARP
-
-![378099299-99653a10-3ff7-41da-a3cd-074fec878fc7](https://github.com/user-attachments/assets/479f9634-26d7-4a4a-9a4a-1e5722dfa6f1)
-
-SYSTEMINFO
-
-![378099556-9563669c-9e93-469d-a129-13ab5cc9b924](https://github.com/user-attachments/assets/906f9266-19ab-48fe-a910-3d77dba38596)
 
 ## Program
 
@@ -99,20 +58,10 @@ while True:
     print(s.recv(1024).decode())
 ```
 
-Tranceroute command
-
-```
-from scapy.all import* 
-target = ["www.google.com"] 
-result, unans = traceroute(target,maxttl=32) 
-print(result,unans)
-```
 
 # Output
 ![image](https://github.com/user-attachments/assets/cd91d861-cc8f-4061-afb5-86280a316bbb)
 
-
-![image](https://github.com/user-attachments/assets/ec8f9d30-f11d-445d-9270-a6910ac1921e)
 
 ## Result
 Thus Execution of Network commands Performed 
